@@ -1,7 +1,9 @@
 ﻿<Properties StartupConfiguration="{0CD6A637-5B15-4F88-8948-4912AA2BBCD6}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Domain/CatalogItem.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Domain/CatalogBrand.cs">
     <Files>
-      <File FileName="Domain/CatalogItem.cs" Line="1" Column="1" />
+      <File FileName="Domain/CatalogItem.cs" Line="24" Column="1" />
+      <File FileName="Domain/CatalogBrand.cs" Line="13" Column="5" />
+      <File FileName="Domain/CatalogType.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
