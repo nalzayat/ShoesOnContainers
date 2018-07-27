@@ -9,7 +9,6 @@ C:/ShoesStore/ShoesOnContainers/src/Services/ProductCatalogApi/obj/Debug/netcore
 C:/ShoesStore/ShoesOnContainers/src/Services/ProductCatalogApi/obj/Debug/netcoreapp2.0/ProductCatalogApi.AssemblyInfo.cs
 C:/ShoesStore/ShoesOnContainers/src/Services/ProductCatalogApi/obj/Debug/netcoreapp2.0/ProductCatalogApi.dll
 C:/ShoesStore/ShoesOnContainers/src/Services/ProductCatalogApi/obj/Debug/netcoreapp2.0/ProductCatalogApi.pdb
-/Users/nola/Documents/Udemy/Microservices/ShoesOnContainers/src/Services/ProductCatalogApi/obj/Debug/netcoreapp2.0/ProductCatalogApi.csprojResolveAssemblyReference.cache
 /Users/nola/Documents/Udemy/Microservices/ShoesOnContainers/src/Services/ProductCatalogApi/obj/Debug/netcoreapp2.0/ProductCatalogApi.csproj.CoreCompileInputs.cache
 /Users/nola/Documents/Udemy/Microservices/ShoesOnContainers/src/Services/ProductCatalogApi/obj/Debug/netcoreapp2.0/ProductCatalogApi.AssemblyInfoInputs.cache
 /Users/nola/Documents/Udemy/Microservices/ShoesOnContainers/src/Services/ProductCatalogApi/obj/Debug/netcoreapp2.0/ProductCatalogApi.AssemblyInfo.cs
@@ -20,3 +19,4 @@ C:/ShoesStore/ShoesOnContainers/src/Services/ProductCatalogApi/obj/Debug/netcore
 /Users/nola/Documents/Udemy/Microservices/ShoesOnContainers/src/Services/ProductCatalogApi/bin/Debug/netcoreapp2.0/ProductCatalogApi.runtimeconfig.dev.json
 /Users/nola/Documents/Udemy/Microservices/ShoesOnContainers/src/Services/ProductCatalogApi/bin/Debug/netcoreapp2.0/ProductCatalogApi.dll
 /Users/nola/Documents/Udemy/Microservices/ShoesOnContainers/src/Services/ProductCatalogApi/bin/Debug/netcoreapp2.0/ProductCatalogApi.pdb
+/Users/nola/Documents/Udemy/Microservices/ShoesOnContainers/src/Services/ProductCatalogApi/obj/Debug/netcoreapp2.0/ProductCatalogApi.csprojAssemblyReference.cache
