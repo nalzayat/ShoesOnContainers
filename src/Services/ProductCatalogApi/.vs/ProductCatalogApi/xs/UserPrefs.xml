@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{A86A7EED-DEB1-485F-A735-55740F5791EE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/PicController.cs">
     <Files>
       <File FileName="appsettings.Development.json" Line="1" Column="1" />
       <File FileName="appsettings.json" Line="2" Column="46" />
-      <File FileName="Data/CatalogSeed.cs" Line="60" Column="179" />
-      <File FileName="Program.cs" Line="27" Column="66" />
+      <File FileName="Data/CatalogSeed.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Controllers/PicController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
