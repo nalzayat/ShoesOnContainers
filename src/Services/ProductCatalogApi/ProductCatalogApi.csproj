@@ -7,6 +7,7 @@
   <ItemGroup>
     <Folder Include="wwwroot\" />
     <Folder Include="Data\" />
+    <Folder Include="Data\Migrations\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,4 +20,9 @@
     <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\20180726181846_InitialMigration.cs" />
+    <Compile Remove="Data\Migrations\20180726181846_InitialMigration.Designer.cs" />
+    <Compile Remove="Data\Migrations\CatalogContextModelSnapshot.cs" />
+  </ItemGroup>
 </Project>
