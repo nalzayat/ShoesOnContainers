@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using ShoesOnContainers.Services.ProductCatalogApi;
 using ShoesOnContainers.Services.ProductCatalogApi.Data;
+using ProductCatalogApi.Data;
 
 namespace ProductCatalogApi.Controllers
 {
