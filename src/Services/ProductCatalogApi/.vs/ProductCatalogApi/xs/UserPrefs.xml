@@ -1,18 +1,14 @@
 ﻿<Properties StartupConfiguration="{A86A7EED-DEB1-485F-A735-55740F5791EE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ViewModels/PaginatedItemsViewModel.cs">
     <Files>
-      <File FileName="Controllers/PicController.cs" Line="31" Column="9" />
-      <File FileName="Controllers/CatalogController.cs" Line="10" Column="49" />
-      <File FileName="Program.cs" Line="37" Column="1" />
-      <File FileName="Data/CatalogContext.cs" Line="4" Column="1" />
-      <File FileName="Startup.cs" Line="31" Column="31" />
+      <File FileName="Controllers/CatalogController.cs" Line="65" Column="2" />
+      <File FileName="Data/CatalogSeed.cs" Line="1" Column="1" />
+      <File FileName="ViewModels/PaginatedItemsViewModel.cs" Line="24" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/nola/Documents/Udemy/Microservices/ShoesOnContainers/src/Services/ProductCatalogApi/Controllers/CatalogController.cs" relfile="Controllers/CatalogController.cs" line="23" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.ProductCatalogApi PreferredExecutionTarget="MonoDevelop.Default" />
