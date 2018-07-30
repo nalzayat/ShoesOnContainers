@@ -9,9 +9,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using ProductCatalogApi.Data;
+using ShoesOnContainers.Services.ProductCatalogApi.Data;
 
-namespace ProductCatalogApi
+namespace ShoesOnContainers.Services.ProductCatalogApi
 {
     public class Startup
     {
@@ -25,6 +25,8 @@ namespace ProductCatalogApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // Link catalog settings 
+            services.Configure<CatalogSettings>(Configuration);
             services.AddDbContext<CatalogContext>(options => options.UseSqlServer(Configuration["ConnectionString"]));
             services.AddMvc();
         }

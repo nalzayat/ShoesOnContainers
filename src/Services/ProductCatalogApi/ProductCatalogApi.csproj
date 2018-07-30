@@ -26,5 +26,6 @@
     <Compile Remove="Data\Migrations\20180726181846_InitialMigration.Designer.cs" />
     <Compile Remove="Data\Migrations\CatalogContextModelSnapshot.cs" />
     <Compile Remove="Controllers\ValuesController.cs" />
+    <Compile Remove="EmptyClass.cs" />
   </ItemGroup>
 </Project>
