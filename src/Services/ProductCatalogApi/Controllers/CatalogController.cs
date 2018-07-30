@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using ShoesOnContainers.Services.ProductCatalogApi;
 using ShoesOnContainers.Services.ProductCatalogApi.Data;
-using ProductCatalogApi.Data;
+
 
 namespace ProductCatalogApi.Controllers
 {
@@ -19,7 +19,6 @@ namespace ProductCatalogApi.Controllers
         private readonly CatalogContext _catalogContext;
         private readonly IOptionsSnapshot<CatalogSettings> _settings;
 
-        // Inject instance of catalog settings
         public CatalogController(CatalogContext catalogContext, IOptionsSnapshot<CatalogSettings> settings)
         {
             _catalogContext = catalogContext;
@@ -43,6 +42,23 @@ namespace ProductCatalogApi.Controllers
             var items = await _catalogContext.CatalogBrands.ToListAsync();
             return Ok(items);
 
+        }
+
+        [HttpGet]
+        [Route("items/{id:int}")]
+        public async Task<IActionResult> GetItemById(int id)
+        {
+            if (id <= 0)
+            {
+                return BadRequest();
+            }
+            var item = await _catalogContext.CatalogItems.SingleOrDefaultAsync(c => c.Id == id);
+            if (item != null)
+            {
+                item.PictureUrl = item.PictureUrl.Replace("http://externalcatalogbaseurltobereplaced", _settings.Value.ExternalCatalogBaseUrl);
+                return Ok(item);
+            }
+            return NotFound();
         }
 
     }

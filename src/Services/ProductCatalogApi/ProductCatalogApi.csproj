@@ -9,6 +9,7 @@
     <Folder Include="Data\" />
     <Folder Include="Data\Migrations\" />
     <Folder Include="Controllers\" />
+    <Folder Include="ViewModels\" />
   </ItemGroup>
 
   <ItemGroup>
