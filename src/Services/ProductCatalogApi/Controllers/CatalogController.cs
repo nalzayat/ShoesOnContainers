@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
+using ProductCatalogApi.Data;
 using ShoesOnContainers.Services.ProductCatalogApi;
 using ShoesOnContainers.Services.ProductCatalogApi.Data;
 
