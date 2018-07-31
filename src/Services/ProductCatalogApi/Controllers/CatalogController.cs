@@ -6,9 +6,10 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
+using ProductCatalogApi.Data;
+using ProductCatalogApi.Domain;
 using ShoesOnContainers.Services.ProductCatalogApi;
 using ShoesOnContainers.Services.ProductCatalogApi.Data;
-using ShoesOnContainers.Services.ProductCatalogApi.Domain;
 using ShoesOnContainers.Services.ProductCatalogApi.ViewModels;
 
 namespace ProductCatalogApi.Controllers
